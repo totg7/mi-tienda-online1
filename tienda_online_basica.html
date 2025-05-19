@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Online</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header { background: #333; color: white; padding: 1rem; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; }
+    .container { padding: 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+    .producto { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 0 10px #ccc; }
+    .producto img { width: 100%; height: auto; }
+    .producto h3 { margin-top: 0.5rem; }
+    .boton { background: #28a745; color: white; border: none; padding: 0.5rem 1rem; cursor: pointer; border-radius: 4px; }
+    footer { text-align: center; padding: 1rem; background: #222; color: white; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mi Tienda Online</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Productos</a>
+      <a href="#">Carrito</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="producto">
+      <img src="https://via.placeholder.com/250" alt="Producto 1">
+      <h3>Producto 1</h3>
+      <p>$19.99</p>
+      <button class="boton">Agregar al carrito</button>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/250" alt="Producto 2">
+      <h3>Producto 2</h3>
+      <p>$29.99</p>
+      <button class="boton">Agregar al carrito</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mi Tienda Online. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
